@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		014CEA3E0018CDD111CA2923 = {
+			isa = PBXBundleReference;
+			path = jk2mpgame.bundle;
+			refType = 3;
+		};
+		014CEA3F0018CDD111CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA400018CDD111CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				014CEA3F0018CDD111CA2923,
+				014CEA400018CDD111CA2923,
+			);
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				089C1673FE841209C02AAC07,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				F5C12684034158F301A80169,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB6FE9D52B211CA2CBB,
+			);
+			isa = PBXGroup;
+			name = cgame;
+			refType = 4;
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				0AA1909FFE8422F4C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+		};
+		089C1673FE841209C02AAC07 = {
+			buildPhases = (
+				089C1674FE841209C02AAC07,
+				089C1675FE841209C02AAC07,
+				089C1676FE841209C02AAC07,
+				089C1677FE841209C02AAC07,
+				089C1679FE841209C02AAC07,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DMACOS_X -DMAC_PORT";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = jk2mpgame;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = game;
+			productName = cgame;
+			productReference = 014CEA3E0018CDD111CA2923;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>jk2mpgame</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>cgame</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.03a</string>
+	<key>CFBundleSignature</key>
+	<string>JK2m</string>
+	<key>CFBundleVersion</key>
+	<string>1.03a</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<string>MyFactoryFunction</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<array>
+			<string>00000000-0000-0000-0000-000000000000</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 1;
+		};
+		089C1674FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1675FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				089C1680FE841241C02AAC07,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1676FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5C1268D0341593B01A80169,
+				F5C1268E0341593B01A80169,
+				F5C1268F0341593B01A80169,
+				F5C126900341593B01A80169,
+				F5C126910341593B01A80169,
+				F5C126920341593B01A80169,
+				F5C126930341593B01A80169,
+				F5C126960341595F01A80169,
+				F5FC334903536B2A01A80169,
+				F5FC334A03536B2A01A80169,
+				F5FC334B03536B2A01A80169,
+				F5FC336603536BA201A80169,
+				F5FC336703536BA201A80169,
+				F5FC336803536BA201A80169,
+				F5FC336903536BA201A80169,
+				F5FC336A03536BA201A80169,
+				F5FC336B03536BA201A80169,
+				F5FC336C03536BA201A80169,
+				F5FC336D03536BA201A80169,
+				F5FC336E03536BA201A80169,
+				F5FC336F03536BA201A80169,
+				F5FC337003536BA201A80169,
+				F5FC337103536BA201A80169,
+				F5FC337203536BA201A80169,
+				F5FC337303536BA201A80169,
+				F5FC337403536BA201A80169,
+				F5FC337503536BA201A80169,
+				F5FC337603536BA201A80169,
+				F5FC337703536BA201A80169,
+				F5FC337803536BA201A80169,
+				F5FC337903536BA201A80169,
+				F5FC337A03536BA201A80169,
+				F5FC337B03536BA201A80169,
+				F5FC337C03536BA201A80169,
+				F5FC337D03536BA201A80169,
+				F5FC337E03536BA201A80169,
+				F5FC337F03536BA201A80169,
+				F5FC338103536D2B01A80169,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1677FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				F5D461E10341868601A80169,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1679FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				089C167DFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		089C167DFE841241C02AAC07 = {
+			children = (
+				089C167EFE841241C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C167EFE841241C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		089C1680FE841241C02AAC07 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+		0AA1909FFE8422F4C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+		};
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+//190
+//191
+//192
+//193
+//194
+		19C28FB6FE9D52B211CA2CBB = {
+			children = (
+				014CEA3E0018CDD111CA2923,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//F50
+//F51
+//F52
+//F53
+//F54
+		F5C12684034158F301A80169 = {
+			children = (
+				F5FC334603536B2A01A80169,
+				F5FC334703536B2A01A80169,
+				F5FC334803536B2A01A80169,
+				F5C1268C0341593B01A80169,
+				F5C1268B0341593B01A80169,
+				F5C126890341593B01A80169,
+				F5C1268A0341593B01A80169,
+				F5C126880341593B01A80169,
+				F5C126870341593B01A80169,
+				F5C126860341593B01A80169,
+				F5FC336503536BA201A80169,
+				F5FC336403536BA201A80169,
+				F5FC336303536BA201A80169,
+				F5FC336203536BA201A80169,
+				F5FC336103536BA201A80169,
+				F5FC335103536BA201A80169,
+				F5FC335003536BA201A80169,
+				F5FC334F03536BA201A80169,
+				F5FC334E03536BA201A80169,
+				F5FC334D03536BA201A80169,
+				F5FC334C03536BA201A80169,
+				F5FC335B03536BA201A80169,
+				F5FC335A03536BA201A80169,
+				F5FC335903536BA201A80169,
+				F5FC335803536BA201A80169,
+				F5FC335703536BA201A80169,
+				F5FC335603536BA201A80169,
+				F5FC335503536BA201A80169,
+				F5FC335403536BA201A80169,
+				F5FC335303536BA201A80169,
+				F5FC335203536BA201A80169,
+				F5FC335E03536BA201A80169,
+				F5FC335D03536BA201A80169,
+				F5FC335C03536BA201A80169,
+				F5FC338003536D2B01A80169,
+				F5C126940341595F01A80169,
+				F5FC335F03536BA201A80169,
+				F5FC336003536BA201A80169,
+			);
+			isa = PBXGroup;
+			name = game;
+			path = "";
+			refType = 4;
+		};
+		F5C126860341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_weapons.c;
+			path = game/bg_weapons.c;
+			refType = 4;
+		};
+		F5C126870341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_slidemove.c;
+			path = game/bg_slidemove.c;
+			refType = 4;
+		};
+		F5C126880341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_saber.c;
+			path = game/bg_saber.c;
+			refType = 4;
+		};
+		F5C126890341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_panimate.c;
+			path = game/bg_panimate.c;
+			refType = 4;
+		};
+		F5C1268A0341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_pmove.c;
+			path = game/bg_pmove.c;
+			refType = 4;
+		};
+		F5C1268B0341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_misc.c;
+			path = game/bg_misc.c;
+			refType = 4;
+		};
+		F5C1268C0341593B01A80169 = {
+			isa = PBXFileReference;
+			name = bg_lib.c;
+			path = game/bg_lib.c;
+			refType = 4;
+		};
+		F5C1268D0341593B01A80169 = {
+			fileRef = F5C126860341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C1268E0341593B01A80169 = {
+			fileRef = F5C126870341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C1268F0341593B01A80169 = {
+			fileRef = F5C126880341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C126900341593B01A80169 = {
+			fileRef = F5C126890341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C126910341593B01A80169 = {
+			fileRef = F5C1268A0341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C126920341593B01A80169 = {
+			fileRef = F5C1268B0341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C126930341593B01A80169 = {
+			fileRef = F5C1268C0341593B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5C126940341595F01A80169 = {
+			isa = PBXFileReference;
+			name = q_shared.c;
+			path = game/q_shared.c;
+			refType = 4;
+		};
+		F5C126960341595F01A80169 = {
+			fileRef = F5C126940341595F01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D461E10341868601A80169 = {
+			fileRef = 0AA1909FFE8422F4C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC334603536B2A01A80169 = {
+			isa = PBXFileReference;
+			name = ai_wpnav.c;
+			path = game/ai_wpnav.c;
+			refType = 4;
+		};
+		F5FC334703536B2A01A80169 = {
+			isa = PBXFileReference;
+			name = ai_util.c;
+			path = game/ai_util.c;
+			refType = 4;
+		};
+		F5FC334803536B2A01A80169 = {
+			isa = PBXFileReference;
+			name = ai_main.c;
+			path = game/ai_main.c;
+			refType = 4;
+		};
+		F5FC334903536B2A01A80169 = {
+			fileRef = F5FC334603536B2A01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC334A03536B2A01A80169 = {
+			fileRef = F5FC334703536B2A01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC334B03536B2A01A80169 = {
+			fileRef = F5FC334803536B2A01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC334C03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_misc.c;
+			path = game/g_misc.c;
+			refType = 4;
+		};
+		F5FC334D03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_mem.c;
+			path = game/g_mem.c;
+			refType = 4;
+		};
+		F5FC334E03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_main.c;
+			path = game/g_main.c;
+			refType = 4;
+		};
+		F5FC334F03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_log.c;
+			path = game/g_log.c;
+			refType = 4;
+		};
+		F5FC335003536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_items.c;
+			path = game/g_items.c;
+			refType = 4;
+		};
+		F5FC335103536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_combat.c;
+			path = game/g_combat.c;
+			refType = 4;
+		};
+		F5FC335203536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_team.c;
+			path = game/g_team.c;
+			refType = 4;
+		};
+		F5FC335303536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_target.c;
+			path = game/g_target.c;
+			refType = 4;
+		};
+		F5FC335403536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_syscalls.c;
+			path = game/g_syscalls.c;
+			refType = 4;
+		};
+		F5FC335503536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_svcmds.c;
+			path = game/g_svcmds.c;
+			refType = 4;
+		};
+		F5FC335603536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_spawn.c;
+			path = game/g_spawn.c;
+			refType = 4;
+		};
+		F5FC335703536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_session.c;
+			path = game/g_session.c;
+			refType = 4;
+		};
+		F5FC335803536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_saga.c;
+			path = game/g_saga.c;
+			refType = 4;
+		};
+		F5FC335903536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_object.c;
+			path = game/g_object.c;
+			refType = 4;
+		};
+		F5FC335A03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_mover.c;
+			path = game/g_mover.c;
+			refType = 4;
+		};
+		F5FC335B03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_missile.c;
+			path = game/g_missile.c;
+			refType = 4;
+		};
+		F5FC335C03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_weapon.c;
+			path = game/g_weapon.c;
+			refType = 4;
+		};
+		F5FC335D03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_utils.c;
+			path = game/g_utils.c;
+			refType = 4;
+		};
+		F5FC335E03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_trigger.c;
+			path = game/g_trigger.c;
+			refType = 4;
+		};
+		F5FC335F03536BA201A80169 = {
+			isa = PBXFileReference;
+			name = w_saber.c;
+			path = game/w_saber.c;
+			refType = 4;
+		};
+		F5FC336003536BA201A80169 = {
+			isa = PBXFileReference;
+			name = w_force.c;
+			path = game/w_force.c;
+			refType = 4;
+		};
+		F5FC336103536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_cmds.c;
+			path = game/g_cmds.c;
+			refType = 4;
+		};
+		F5FC336203536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_client.c;
+			path = game/g_client.c;
+			refType = 4;
+		};
+		F5FC336303536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_bot.c;
+			path = game/g_bot.c;
+			refType = 4;
+		};
+		F5FC336403536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_arenas.c;
+			path = game/g_arenas.c;
+			refType = 4;
+		};
+		F5FC336503536BA201A80169 = {
+			isa = PBXFileReference;
+			name = g_active.c;
+			path = game/g_active.c;
+			refType = 4;
+		};
+		F5FC336603536BA201A80169 = {
+			fileRef = F5FC334C03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336703536BA201A80169 = {
+			fileRef = F5FC334D03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336803536BA201A80169 = {
+			fileRef = F5FC334E03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336903536BA201A80169 = {
+			fileRef = F5FC334F03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336A03536BA201A80169 = {
+			fileRef = F5FC335003536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336B03536BA201A80169 = {
+			fileRef = F5FC335103536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336C03536BA201A80169 = {
+			fileRef = F5FC335203536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336D03536BA201A80169 = {
+			fileRef = F5FC335303536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336E03536BA201A80169 = {
+			fileRef = F5FC335403536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC336F03536BA201A80169 = {
+			fileRef = F5FC335503536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337003536BA201A80169 = {
+			fileRef = F5FC335603536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337103536BA201A80169 = {
+			fileRef = F5FC335703536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337203536BA201A80169 = {
+			fileRef = F5FC335803536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337303536BA201A80169 = {
+			fileRef = F5FC335903536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337403536BA201A80169 = {
+			fileRef = F5FC335A03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337503536BA201A80169 = {
+			fileRef = F5FC335B03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337603536BA201A80169 = {
+			fileRef = F5FC335C03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337703536BA201A80169 = {
+			fileRef = F5FC335D03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337803536BA201A80169 = {
+			fileRef = F5FC335E03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337903536BA201A80169 = {
+			fileRef = F5FC335F03536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337A03536BA201A80169 = {
+			fileRef = F5FC336003536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337B03536BA201A80169 = {
+			fileRef = F5FC336103536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337C03536BA201A80169 = {
+			fileRef = F5FC336203536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337D03536BA201A80169 = {
+			fileRef = F5FC336303536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337E03536BA201A80169 = {
+			fileRef = F5FC336403536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC337F03536BA201A80169 = {
+			fileRef = F5FC336503536BA201A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5FC338003536D2B01A80169 = {
+			isa = PBXFileReference;
+			name = q_math.c;
+			path = game/q_math.c;
+			refType = 4;
+		};
+		F5FC338103536D2B01A80169 = {
+			fileRef = F5FC338003536D2B01A80169;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}
